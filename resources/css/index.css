@@ -1,0 +1,109 @@
+html {
+  font-size:16px;
+  font-family:Helvetica;
+  color:#4a4a4a;
+}
+
+header {
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content:space-between;
+  height:4rem;
+  width:100%;
+}
+
+.headerdiv {
+display:flex;
+flex-flow:row nowrap;
+align-items: center;
+padding:0 1.5rem;
+}
+
+.headerdiv li {
+  padding-left:1.5rem;
+}
+
+.headerdiv img {
+  height:2rem;
+}
+
+/*First big div*/
+
+.firstdiv {
+  display:flex;
+  flex-flow:row nowrap;
+  align-items:center;
+  background-color: #d8d8d8;
+  justify-content:flex-start;
+}
+
+.firstleft {
+  width:60%;
+  height:auto;
+  padding:2rem 1.5rem;
+}
+
+.firstright h2 {
+  font-size:3.5rem;
+  font-weight:900;
+}
+
+.latin1 {
+  padding:20px 0px;
+  font-size:1.5rem;
+  font-weight:350;
+}
+
+.start {
+  text-align: center;
+  background-color: #4a4a4a;
+  padding:15px 30px;
+  color:white;
+}
+
+/*Second big div*/
+
+.seconddiv {
+  display:flex;
+  flex-flow:row nowrap;
+  background-color: #f3f5f5;
+
+}
+
+.secondleft {
+  padding:2rem 1.5rem;
+  width:60%;
+  height:auto;
+
+}
+
+.secondleft img {
+  width:100%;
+}
+
+.secondleft h2 {
+  font-size:3rem;
+  font-weight:850;
+  padding:2rem 0 1.5rem 0;
+}
+
+.secondleft blockquote {
+  font-weight:70;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.secondleft p {
+  padding-bottom: 2rem;
+}
+
+.small {
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+.secondright img {
+  width:35%;
+  height:auto;
+}
