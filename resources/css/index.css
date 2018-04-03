@@ -4,6 +4,11 @@ html {
   color:#4a4a4a;
 }
 
+body {
+  width:1050px;
+  margin:auto;
+}
+
 header {
   display:flex;
   flex-flow:row nowrap;
@@ -43,6 +48,10 @@ padding:0 1.5rem;
   padding:2rem 1.5rem;
 }
 
+.firstleft img {
+  max-width:100%;
+}
+
 .firstright h2 {
   font-size:3.5rem;
   font-weight:900;
@@ -67,14 +76,12 @@ padding:0 1.5rem;
   display:flex;
   flex-flow:row nowrap;
   background-color: #f3f5f5;
-
 }
 
 .secondleft {
-  padding:2rem 1.5rem;
+  padding:0 1.5rem;
   width:60%;
   height:auto;
-
 }
 
 .secondleft img {
@@ -82,7 +89,7 @@ padding:0 1.5rem;
 }
 
 .secondleft h2 {
-  font-size:3rem;
+  font-size:2rem;
   font-weight:850;
   padding:2rem 0 1.5rem 0;
 }
@@ -98,12 +105,21 @@ padding:0 1.5rem;
   padding-bottom: 2rem;
 }
 
-.small {
-  display:flex;
-  flex-flow: row nowrap;
+.secondright {
+  display: flex;
+  flex-flow:row wrap;
+  max-width:40%;
 }
 
-.secondright img {
-  width:35%;
+.small {
+  display:flex;
+  align-items:center;
+  border: 2px solid red;
+}
+
+.small img {
+  max-width:35%;
   height:auto;
+  padding:1rem;
+  border: 2px solid blue;
 }
