@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  width:1050px;
+  width:1100px;
   margin:auto;
 }
 
@@ -76,6 +76,7 @@ padding:0 1.5rem;
   display:flex;
   flex-flow:row nowrap;
   background-color: #f3f5f5;
+  padding:2rem 0;
 }
 
 .secondleft {
@@ -95,10 +96,10 @@ padding:0 1.5rem;
 }
 
 .secondleft blockquote {
-  font-weight:70;
-  letter-spacing: 1px;
   font-size: 1.25rem;
   padding-bottom: 2rem;
+  opacity: 0.7;
+  line-height: 1.5rem;
 }
 
 .secondleft p {
@@ -114,12 +115,158 @@ padding:0 1.5rem;
 .small {
   display:flex;
   align-items:center;
-  border: 2px solid red;
 }
 
 .small img {
   max-width:35%;
   height:auto;
   padding:1rem;
-  border: 2px solid blue;
+}
+
+.rightinfo {
+  font-weight:90;
+  font-size: 1rem;
+
+}
+
+/*Third big div*/
+
+.thirddiv {
+  background-color: #d8d8d8;
+}
+
+.sixpictures {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+
+}
+
+.thirdsmall {
+  max-width:280px;
+  background-color: white;
+
+}
+
+.thirdsmall img {
+  max-width: 100%;
+  height: auto;
+ }
+
+.thirddiv h2 {
+  font-size:2rem;
+  font-weight:850;
+  text-align: center;
+  padding:2rem 0;
+}
+
+.underpad {
+  margin-bottom: 1.5rem;
+}
+
+.rightmar {
+  margin-right: 1.5rem;
+}
+
+.textone {
+  padding:1rem 0 1rem 1rem;
+  font-size:1.5rem;
+}
+
+.texttwo {
+  padding:0.5rem 1rem;
+  opacity:0.7;
+}
+
+.textthree {
+  padding:0 1rem 1.5rem 1rem;
+  opacity: 0.7;
+}
+
+/*Fourth big div*/
+
+.fourthdiv {
+  background-color: #f3f5f5;
+  padding-bottom: 2rem;
+
+}
+
+.fourthdivsmall {
+  display: flex;
+  flex-direction: row;
+}
+
+.fourthdiv h2 {
+  font-size:2rem;
+  font-weight:850;
+  text-align: center;
+  padding:2rem 0;
+}
+
+.fourthleft {
+  max-width:55%;
+}
+
+.fourthleft h4 {
+  font-size:1.5rem;
+  padding:1.5rem 0 0.5rem 1.5rem;
+}
+
+.fourthleft blockquote {
+  opacity: 0.7;
+  font-size: 1rem;
+  padding:0 0 2rem 1.5rem;
+  line-height: 1.5rem;
+}
+
+video {
+  max-width:92%;
+  height: auto;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.fourthright {
+  max-width:45%;
+}
+
+.twosmalldivs {
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.twosmalldivs img {
+  max-width:35%;
+  height:auto;
+  padding:1rem;
+}
+
+.nowandthen {
+  background-color: #d8d8d8;
+}
+
+/*Footer*/
+
+footer {
+  display:flex;
+  justify-content: space-between;
+}
+
+.leftfooter {
+  padding:1rem 0 3rem 1.5rem;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.rightfooter {
+  display: flex;
+  flex-direction: row;
+  padding:1rem 1.5rem 3rem 0;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.rightfooter p {
+padding-left: 1rem;
 }
