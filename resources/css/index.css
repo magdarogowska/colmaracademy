@@ -304,10 +304,10 @@ padding-left: 1rem;
 
 /* Media queries */
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:570px) {
   body {
     min-width:400px;
-    max-width:500px;
+    max-width:570px;
   }
 
   /* Header*/
