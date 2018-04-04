@@ -39,7 +39,6 @@ padding:0 1.5rem;
   align-items:center;
   background-color: #d8d8d8;
   justify-content:flex-start;
-  border: 2px solid red;
 }
 
 .firstleft {
@@ -49,7 +48,6 @@ padding:0 1.5rem;
 }
 
 .firstright {
-  border: 2px solid red;
   padding: 2rem 1.5rem;
   width:450px;
 }
@@ -121,36 +119,40 @@ padding:0 1.5rem;
 .small {
   display:flex;
   flex-direction: row nowrap;
-  align-items: flex-start;
-  border:2px solid green;
+  align-items: center;
 }
 
 .small img {
   max-width:35%;
-  border:2px solid red;
-
-}
-
-.pad {
-  padding: 1rem;
-}
-
-.pad1 {
-  padding-left: 1rem;
-}
-
-.stu {
-  margin-bottom: 3rem;
 }
 
 .rightinfo {
-  font-weight:90;
-  font-size: 1rem;
   display:flex;
   flex-direction: column;
-  justify-content: center;
-  border:2px solid blue;
+}
 
+.rightinfo h3 {
+  font-size:1.5rem;
+  padding-bottom: 0.5rem;
+}
+.rightinfo p {
+  font-size: 1rem;
+  opacity: 0.7;
+  padding-bottom: 0.5rem;
+}
+
+.rightinfo a {
+  font-size: 1rem;
+  opacity:0.7;
+  text-decoration: none;
+}
+
+.styling {
+  padding:0 1rem 1rem 1rem;
+}
+
+.styling1 {
+  padding:1rem;
 }
 
 /*Third big div*/
