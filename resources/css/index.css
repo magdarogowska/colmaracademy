@@ -4,11 +4,6 @@ html {
   color:#4a4a4a;
 }
 
-body {
-  width:1100px;
-  margin:auto;
-}
-
 header {
   display:flex;
   flex-flow:row nowrap;
@@ -32,6 +27,10 @@ padding:0 1.5rem;
   height:2rem;
 }
 
+.notvisible {
+  display:none;
+}
+
 /*First big div*/
 
 .firstdiv {
@@ -40,12 +39,19 @@ padding:0 1.5rem;
   align-items:center;
   background-color: #d8d8d8;
   justify-content:flex-start;
+  border: 2px solid red;
 }
 
 .firstleft {
   width:60%;
   height:auto;
   padding:2rem 1.5rem;
+}
+
+.firstright {
+  border: 2px solid red;
+  padding: 2rem 1.5rem;
+  width:450px;
 }
 
 .firstleft img {
@@ -76,7 +82,7 @@ padding:0 1.5rem;
   display:flex;
   flex-flow:row nowrap;
   background-color: #f3f5f5;
-  padding:2rem 0;
+  padding-top:2rem;
 }
 
 .secondleft {
@@ -109,23 +115,41 @@ padding:0 1.5rem;
 .secondright {
   display: flex;
   flex-flow:row wrap;
-  max-width:40%;
+  max-width: 35%;
 }
 
 .small {
   display:flex;
-  align-items:center;
+  flex-direction: row nowrap;
+  align-items: flex-start;
+  border:2px solid green;
 }
 
 .small img {
   max-width:35%;
-  height:auto;
-  padding:1rem;
+  border:2px solid red;
+
+}
+
+.pad {
+  padding: 1rem;
+}
+
+.pad1 {
+  padding-left: 1rem;
+}
+
+.stu {
+  margin-bottom: 3rem;
 }
 
 .rightinfo {
   font-weight:90;
   font-size: 1rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border:2px solid blue;
 
 }
 
@@ -140,7 +164,8 @@ padding:0 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 2rem;
-
+  width:1050px;
+  margin:auto;
 }
 
 .thirdsmall {
@@ -269,4 +294,42 @@ footer {
 
 .rightfooter p {
 padding-left: 1rem;
+}
+
+/* Media queries */
+
+/*@media only screen and (max-width:480px) {
+  body {
+    width:480px;
+  }
+
+  header {
+    width:480px;
+    height:4rem;
+  }
+  .headerdiv2 {
+    display:none;
+}
+
+  .headerdiv h1 {
+    display:none;
+  }
+  .notvisible {
+    display: inline-block;
+  }
+  .headerdiv  {
+    width: 480px;
+    justify-content: space-between;
+  }
+
+  .firstright {
+    display:none;
+  }
+
+  .firstleft {
+    width:100%;
+    height:auto;
+    padding: 0;
+  }
+*/
 }
