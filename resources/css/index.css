@@ -114,7 +114,7 @@ padding:0 1.5rem;
 
 .secondright {
   display: flex;
-  flex-flow:row wrap;
+  flex-flow:column nowrap;
   max-width: 35%;
 }
 
